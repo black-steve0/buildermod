@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "buildermod:blocks/water_still",
+    "top": "buildermod:blocks/water_still",
+    "side": "buildermod:blocks/water_still"
+  }
+}

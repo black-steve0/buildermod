@@ -1,0 +1,318 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "EAther",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "e_ather",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Holywater",
+      "type": "fluid",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "holywater"
+    },
+    {
+      "name": "Eatherframe",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eatherframe"
+    },
+    {
+      "name": "EatherframeUpdateTick",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eatherframe_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EatherportalEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eatherportal_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Eatherportal",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eatherportal"
+    },
+    {
+      "name": "Eatherite",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eatherite"
+    },
+    {
+      "name": "Eatheriteblock",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eatheriteblock"
+    },
+    {
+      "name": "EatheriteOre",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eatherite_ore"
+    },
+    {
+      "name": "Upgrade",
+      "type": "gui",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "upgrade"
+    },
+    {
+      "name": "FatAnvilOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fat_anvil_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Eatherite_toolsPickaxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eatherite_tools_pickaxe"
+    },
+    {
+      "name": "Eatherite_toolsAxe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eatherite_tools_axe"
+    },
+    {
+      "name": "Eatherite_toolsSword",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eatherite_tools_sword"
+    },
+    {
+      "name": "Eatherite_toolsShovel",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eatherite_tools_shovel"
+    },
+    {
+      "name": "Eatherite_toolsHoe",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eatherite_tools_hoe"
+    },
+    {
+      "name": "Eatherite_toolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eatherite_tools_pickaxe_recipe"
+    },
+    {
+      "name": "Eatherite_toolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eatherite_tools_axe_recipe"
+    },
+    {
+      "name": "Eatherite_toolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eatherite_tools_sword_recipe"
+    },
+    {
+      "name": "Eatherite_toolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eatherite_tools_shovel_recipe"
+    },
+    {
+      "name": "Eatherite_toolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eatherite_tools_hoe_recipe"
+    },
+    {
+      "name": "EatheritetoolsPickaxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eatheritetools_pickaxe_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Supremesharpness",
+      "type": "enchantment",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supremesharpness"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.buildermod.eatherframe": "Eatherframe",
+      "item.buildermod.eatherite_tools_pickaxe": "Eatherite_tools Pickaxe",
+      "item.buildermod.eatherite_tools_sword": "Eatherite_tools Sword",
+      "item.buildermod.eatherite_tools_shovel": "Eatherite_tools Shovel",
+      "item.buildermod.eatherite": "Eatherite",
+      "block.buildermod.eatherite_ore": "Eatherite Ore",
+      "item.buildermod.eatherite_tools_axe": "Eatherite_tools Axe",
+      "block.buildermod.eatheriteblock": "Eatheriteblock",
+      "fluid.holywater": "Holywater",
+      "enchantment.buildermod.supremesharpness": "Supremesharpness",
+      "block.buildermod.eatherportal": "Eather_portal",
+      "item.buildermod.e_ather": "Eather Portal Igniter",
+      "item.buildermod.holywater_bucket": "Holywater Bucket",
+      "item.buildermod.eatherite_tools_hoe": "Eatherite_tools Hoe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "buildermod",
+    "modName": "BuilderMod",
+    "version": "0.1.0",
+    "author": "User, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.buildermod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100112313
+}

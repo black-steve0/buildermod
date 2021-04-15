@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "buildermod:blocks/eatherite",
+    "particle": "buildermod:blocks/eatherite"
+  }
+}

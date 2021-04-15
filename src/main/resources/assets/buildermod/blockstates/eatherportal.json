@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buildermod:block/eatherportal"
+    },
+    "type=top": {
+      "model": "buildermod:block/eatherportal_top"
+    },
+    "type=double": {
+      "model": "buildermod:block/eatherportal_full"
+    }
+  }
+}

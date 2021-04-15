@@ -1,0 +1,16 @@
+{
+  "block.buildermod.eatherframe": "Eatherframe",
+  "item.buildermod.eatherite_tools_pickaxe": "Eatherite_tools Pickaxe",
+  "item.buildermod.eatherite_tools_sword": "Eatherite_tools Sword",
+  "item.buildermod.eatherite_tools_shovel": "Eatherite_tools Shovel",
+  "item.buildermod.eatherite": "Eatherite",
+  "block.buildermod.eatherite_ore": "Eatherite Ore",
+  "item.buildermod.eatherite_tools_axe": "Eatherite_tools Axe",
+  "block.buildermod.eatheriteblock": "Eatheriteblock",
+  "fluid.holywater": "Holywater",
+  "enchantment.buildermod.supremesharpness": "Supremesharpness",
+  "block.buildermod.eatherportal": "Eather_portal",
+  "item.buildermod.e_ather": "Eather Portal Igniter",
+  "item.buildermod.holywater_bucket": "Holywater Bucket",
+  "item.buildermod.eatherite_tools_hoe": "Eatherite_tools Hoe"
+}

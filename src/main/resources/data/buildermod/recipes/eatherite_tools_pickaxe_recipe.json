@@ -1,0 +1,30 @@
+{
+  "group": "buildermod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "buildermod:eatherite"
+    },
+    "1": {
+      "item": "buildermod:eatherite"
+    },
+    "2": {
+      "item": "buildermod:eatherite"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "buildermod:eatherite_tools_pickaxe",
+    "count": 1
+  }
+}

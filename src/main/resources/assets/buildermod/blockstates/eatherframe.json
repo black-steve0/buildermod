@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buildermod:block/eatherframe"
+    },
+    "type=top": {
+      "model": "buildermod:block/eatherframe_top"
+    },
+    "type=double": {
+      "model": "buildermod:block/eatherframe_full"
+    }
+  }
+}

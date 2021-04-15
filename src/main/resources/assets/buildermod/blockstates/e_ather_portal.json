@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "buildermod:block/e_ather_portal_ew"
+    },
+    "axis=x": {
+      "model": "buildermod:block/e_ather_portal_ns"
+    }
+  }
+}

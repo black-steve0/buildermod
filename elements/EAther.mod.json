@@ -1,0 +1,55 @@
+{
+  "_fv": 17,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "small_end_islands"
+      },
+      {
+        "value": "end_midlands"
+      },
+      {
+        "value": "end_highlands"
+      },
+      {
+        "value": "end_barrens"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "Blocks.END_STONE"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:Holywater"
+    },
+    "airColor": {
+      "value": -10027009,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "DENY",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.GLOWSTONE"
+    },
+    "portalParticles": {
+      "value": "WHITE_ASH"
+    },
+    "portalLuminance": 15,
+    "portalSound": {
+      "value": "ambient.nether_wastes.loop"
+    },
+    "igniterName": "Eather Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "nothing",
+    "portalTexture": "nothing",
+    "enablePortal": true
+  }
+}
