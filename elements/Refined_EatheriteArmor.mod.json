@@ -1,0 +1,61 @@
+{
+  "_fv": 17,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": false,
+    "textureHelmet": "refined_eatherite_head",
+    "enableBody": true,
+    "textureBody": "refined_eatherite_body",
+    "enableLeggings": true,
+    "textureLeggings": "refined_eatherite_leggings",
+    "enableBoots": true,
+    "textureBoots": "refined_eatherite_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "refined_eatherite",
+    "helmetName": "Refined_Eatherite Helmet",
+    "bodyName": "Refined_Eatherite Chestplate",
+    "leggingsName": "Refined_Eatherite Leggings",
+    "bootsName": "Refined_Eatherite Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 1000,
+    "damageValueHelmet": 12,
+    "damageValueBody": 30,
+    "damageValueLeggings": 36,
+    "damageValueBoots": 12,
+    "enchantability": 54,
+    "toughness": 6.0,
+    "knockbackResistance": 0.4,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Eatherite"
+      },
+      {
+        "value": "Items.DIAMOND"
+      }
+    ]
+  }
+}

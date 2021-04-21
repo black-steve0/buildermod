@@ -1,0 +1,36 @@
+{
+  "group": "buildermod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "buildermod:eatherite"
+    },
+    "1": {
+      "item": "buildermod:eatherite"
+    },
+    "2": {
+      "item": "buildermod:eatherite"
+    },
+    "3": {
+      "item": "buildermod:eatherite"
+    },
+    "5": {
+      "item": "buildermod:eatherite"
+    },
+    "6": {
+      "item": "buildermod:eatherite"
+    },
+    "8": {
+      "item": "buildermod:eatherite"
+    }
+  },
+  "result": {
+    "item": "buildermod:refined_eatherite_armor_leggings",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 17,
+  "_type": "tab",
+  "definition": {
+    "name": "Builder's Mod",
+    "icon": {
+      "value": "CUSTOM:Eatherite"
+    },
+    "showSearch": true
+  }
+}

@@ -270,6 +270,78 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "supremesharpness"
+    },
+    {
+      "name": "Suprememethod",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "suprememethod",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BuilderMod",
+      "type": "tab",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "builder_mod"
+    },
+    {
+      "name": "Refined_EatheriteArmor",
+      "type": "armor",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "refined_eatherite_armor",
+      "metadata": {
+        "eh": false,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Refined_EatheriteArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "refined_eatherite_armor_body_recipe"
+    },
+    {
+      "name": "Refined_EatheriteArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "refined_eatherite_armor_leggings_recipe"
+    },
+    {
+      "name": "Refined_EatheriteArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "refined_eatherite_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
@@ -287,7 +359,12 @@
       "fluid.holywater": "Holywater",
       "enchantment.buildermod.supremesharpness": "Supremesharpness",
       "block.buildermod.eatherportal": "Eather_portal",
+      "item.buildermod.refined_eatherite_armor_boots": "Refined_Eatherite Boots",
+      "itemGroup.tabbuilder_mod": "Builder\u0027s Mod",
+      "item.buildermod.refined_eatherite_armor_helmet": "Refined_Eatherite Helmet",
+      "item.buildermod.refined_eatherite_armor_leggings": "Refined_Eatherite Leggings",
       "item.buildermod.e_ather": "Eather Portal Igniter",
+      "item.buildermod.refined_eatherite_armor_chestplate": "Refined_Eatherite Chestplate",
       "item.buildermod.holywater_bucket": "Holywater Bucket",
       "item.buildermod.eatherite_tools_hoe": "Eatherite_tools Hoe"
     }

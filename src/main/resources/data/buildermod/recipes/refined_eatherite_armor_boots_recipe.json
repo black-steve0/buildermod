@@ -1,0 +1,26 @@
+{
+  "group": "buildermod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "buildermod:eatherite"
+    },
+    "2": {
+      "item": "buildermod:eatherite"
+    },
+    "3": {
+      "item": "buildermod:eatherite"
+    },
+    "5": {
+      "item": "buildermod:eatherite"
+    }
+  },
+  "result": {
+    "item": "buildermod:refined_eatherite_armor_boots",
+    "count": 1
+  }
+}

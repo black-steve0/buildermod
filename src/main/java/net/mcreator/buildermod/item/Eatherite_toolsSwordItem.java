@@ -46,7 +46,7 @@ public class Eatherite_toolsSwordItem extends BuildermodModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(EatheriteItem.block, (int) (1)));
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -2.6f, new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()) {
 		}.setRegistryName("eatherite_tools_sword"));
 	}
 }

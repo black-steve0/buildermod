@@ -1,0 +1,39 @@
+{
+  "group": "buildermod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "buildermod:eatherite"
+    },
+    "2": {
+      "item": "buildermod:eatherite"
+    },
+    "3": {
+      "item": "buildermod:eatherite"
+    },
+    "4": {
+      "item": "buildermod:eatherite"
+    },
+    "5": {
+      "item": "buildermod:eatherite"
+    },
+    "6": {
+      "item": "buildermod:eatherite"
+    },
+    "7": {
+      "item": "buildermod:eatherite"
+    },
+    "8": {
+      "item": "buildermod:eatherite"
+    }
+  },
+  "result": {
+    "item": "buildermod:refined_eatherite_armor_chestplate",
+    "count": 1
+  }
+}

@@ -10,7 +10,12 @@
   "fluid.holywater": "Holywater",
   "enchantment.buildermod.supremesharpness": "Supremesharpness",
   "block.buildermod.eatherportal": "Eather_portal",
+  "item.buildermod.refined_eatherite_armor_boots": "Refined_Eatherite Boots",
+  "itemGroup.tabbuilder_mod": "Builder\u0027s Mod",
+  "item.buildermod.refined_eatherite_armor_helmet": "Refined_Eatherite Helmet",
+  "item.buildermod.refined_eatherite_armor_leggings": "Refined_Eatherite Leggings",
   "item.buildermod.e_ather": "Eather Portal Igniter",
+  "item.buildermod.refined_eatherite_armor_chestplate": "Refined_Eatherite Chestplate",
   "item.buildermod.holywater_bucket": "Holywater Bucket",
   "item.buildermod.eatherite_tools_hoe": "Eatherite_tools Hoe"
 }
