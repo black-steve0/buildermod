@@ -376,9 +376,10 @@
   "workspaceSettings": {
     "modid": "buildermod",
     "modName": "BuilderMod",
-    "version": "0.1.0",
-    "author": "User, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "version": "0.1.5",
+    "description": "mod for builder",
+    "author": "black_steve0",
+    "websiteURL": "https://github.com/black-steve0",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -391,5 +392,5 @@
     "modElementsPackage": "net.mcreator.buildermod",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100112313
+  "mcreatorVersion": 202100116710
 }

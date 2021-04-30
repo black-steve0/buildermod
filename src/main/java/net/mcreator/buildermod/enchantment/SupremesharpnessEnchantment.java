@@ -28,12 +28,12 @@ public class SupremesharpnessEnchantment extends BuildermodModElements.ModElemen
 
 		@Override
 		public int getMinLevel() {
-			return 1;
+			return 3;
 		}
 
 		@Override
 		public int getMaxLevel() {
-			return 5;
+			return 4;
 		}
 
 		@Override

@@ -4,11 +4,14 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="buildermod"
-version="0.1.0"
+version="0.1.5"
 displayName="BuilderMod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="User, MCreator"
+displayURL="https://github.com/black-steve0"
+authors="black_steve0"
+description='''
+mod for builder
+'''
 
 [[dependencies.buildermod]]
     modId="minecraft"
