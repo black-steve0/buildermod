@@ -21,8 +21,8 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.util.ITooltipFlag;
 
+import net.mcreator.buildermod.procedures.WitherRightclickProcedure;
 import net.mcreator.buildermod.procedures.EatheritetoolsSwordToolInHandTickProcedure;
-import net.mcreator.buildermod.procedures.EatheritetoolsSwordRightClickedInAirProcedure;
 import net.mcreator.buildermod.procedures.EatheritetoolsSwordLivingEntityIsHitWithToolProcedure;
 import net.mcreator.buildermod.BuildermodModElements;
 
@@ -31,11 +31,11 @@ import java.util.List;
 import java.util.HashMap;
 
 @BuildermodModElements.ModElement.Tag
-public class Eatherite_toolsSwordItem extends BuildermodModElements.ModElement {
-	@ObjectHolder("buildermod:eatherite_tools_sword")
+public class WitheredswordItem extends BuildermodModElements.ModElement {
+	@ObjectHolder("buildermod:witheredsword")
 	public static final Item block = null;
-	public Eatherite_toolsSwordItem(BuildermodModElements instance) {
-		super(instance, 11);
+	public WitheredswordItem(BuildermodModElements instance) {
+		super(instance, 67);
 	}
 
 	@Override
@@ -62,14 +62,13 @@ public class Eatherite_toolsSwordItem extends BuildermodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(EatheriteItem.block, (int) (3)));
+				return Ingredient.fromStacks(new ItemStack(EatheriteItem.block, (int) (1)));
 			}
 		}, 3, -2.6f, new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("§6Item Ability: Teleport 5 blocks ahead §e§lRIGHT CLICK"));
-				list.add(new StringTextComponent("§8Cost: §350 Mana"));
+				list.add(new StringTextComponent("teleports you 10 blocks on right click"));
 			}
 
 			@Override
@@ -86,7 +85,7 @@ public class Eatherite_toolsSwordItem extends BuildermodModElements.ModElement {
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);
 					$_dependencies.put("world", world);
-					EatheritetoolsSwordRightClickedInAirProcedure.executeProcedure($_dependencies);
+					WitherRightclickProcedure.executeProcedure($_dependencies);
 				}
 				return retval;
 			}
@@ -127,7 +126,6 @@ public class Eatherite_toolsSwordItem extends BuildermodModElements.ModElement {
 			public boolean hasEffect(ItemStack itemstack) {
 				return true;
 			}
-		}.setRegistryName("eatherite_tools_sword"));
+		}.setRegistryName("witheredsword"));
 	}
 }
-

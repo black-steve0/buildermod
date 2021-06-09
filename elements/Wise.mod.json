@@ -1,0 +1,21 @@
+{
+  "_fv": 18,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Wise",
+    "type": "ARMOR_HEAD",
+    "rarity": "UNCOMMON",
+    "minLevel": 1,
+    "maxLevel": 5,
+    "damageModifier": 0,
+    "compatibleEnchantments": [],
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:Manahelmet.helmet"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true
+  }
+}

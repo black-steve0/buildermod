@@ -342,6 +342,336 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "refined_eatherite_armor_boots_recipe"
+    },
+    {
+      "name": "EatheritetoolsSwordRightClickedInAir",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eatheritetools_sword_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RefinedEatheriteArmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "refined_eatherite_armor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManahelmetHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "manahelmet_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Manahelmet",
+      "type": "armor",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "manahelmet",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "Mana",
+      "type": "overlay",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mana"
+    },
+    {
+      "name": "EatheritetoolsSwordToolInHandTick",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eatheritetools_sword_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BigBrain",
+      "type": "enchantment",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_brain"
+    },
+    {
+      "name": "EatheritetoolsSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eatheritetools_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Angel",
+      "type": "armor",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angel",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": true,
+        "ec": false
+      }
+    },
+    {
+      "name": "AngelBootsTickEvent",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angel_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GriffinfeatherRightClickedInAir",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "griffinfeather_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AngelBoots",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angel_boots"
+    },
+    {
+      "name": "Condition",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Anvilgui",
+      "type": "gui",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anvilgui"
+    },
+    {
+      "name": "Anvil",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anvil"
+    },
+    {
+      "name": "WitherHeartRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wither_heart_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WitherHeart",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wither_heart"
+    },
+    {
+      "name": "Powerrecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "powerrecipe"
+    },
+    {
+      "name": "Witheredsword",
+      "type": "tool",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "witheredsword"
+    },
+    {
+      "name": "WitherRightclick",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wither_rightclick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Craftwitherheart",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craftwitherheart"
+    },
+    {
+      "name": "Wise",
+      "type": "enchantment",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wise"
     }
   ],
   "variable_elements": [],
@@ -349,24 +679,37 @@
   "language_map": {
     "en_us": {
       "block.buildermod.eatherframe": "Eatherframe",
-      "item.buildermod.eatherite_tools_pickaxe": "Eatherite_tools Pickaxe",
-      "item.buildermod.eatherite_tools_sword": "Eatherite_tools Sword",
-      "item.buildermod.eatherite_tools_shovel": "Eatherite_tools Shovel",
+      "item.buildermod.eatherite_tools_sword": "Eatherite Sword",
+      "item.buildermod.manahelmet_boots": "Manahelmet Boots",
+      "item.buildermod.manahelmet_leggings": "Manahelmet Leggings",
       "item.buildermod.eatherite": "Eatherite",
-      "block.buildermod.eatherite_ore": "Eatherite Ore",
       "item.buildermod.eatherite_tools_axe": "Eatherite_tools Axe",
       "block.buildermod.eatheriteblock": "Eatheriteblock",
+      "block.buildermod.anvil": "Anvil",
       "fluid.holywater": "Holywater",
-      "enchantment.buildermod.supremesharpness": "Supremesharpness",
       "block.buildermod.eatherportal": "Eather_portal",
-      "item.buildermod.refined_eatherite_armor_boots": "Refined_Eatherite Boots",
+      "item.buildermod.wither_heart": "Wither Heart",
       "itemGroup.tabbuilder_mod": "Builder\u0027s Mod",
-      "item.buildermod.refined_eatherite_armor_helmet": "Refined_Eatherite Helmet",
       "item.buildermod.refined_eatherite_armor_leggings": "Refined_Eatherite Leggings",
-      "item.buildermod.e_ather": "Eather Portal Igniter",
-      "item.buildermod.refined_eatherite_armor_chestplate": "Refined_Eatherite Chestplate",
+      "item.buildermod.witheredsword": "Eatherite Sword",
+      "enchantment.buildermod.wise": "Wise",
+      "item.buildermod.angel_leggings": "Angel Leggings",
+      "item.buildermod.angel_boots": "Angel Boots",
       "item.buildermod.holywater_bucket": "Holywater Bucket",
-      "item.buildermod.eatherite_tools_hoe": "Eatherite_tools Hoe"
+      "item.buildermod.eatherite_tools_hoe": "Eatherite_tools Hoe",
+      "item.buildermod.eatherite_tools_pickaxe": "Eatherite_tools Pickaxe",
+      "item.buildermod.eatherite_tools_shovel": "Eatherite_tools Shovel",
+      "enchantment.buildermod.big_brain": "Big Brain",
+      "block.buildermod.eatherite_ore": "Eatherite Ore",
+      "item.buildermod.manahelmet_helmet": "Mana Helmet",
+      "item.buildermod.angel_helmet": "Angel Helmet",
+      "enchantment.buildermod.supremesharpness": "Supremesharpness",
+      "item.buildermod.refined_eatherite_armor_boots": "Refined_Eatherite Boots",
+      "item.buildermod.refined_eatherite_armor_helmet": "Refined_Eatherite Helmet",
+      "item.buildermod.manahelmet_chestplate": "Manahelmet Body",
+      "item.buildermod.angel_chestplate": "Angel Body",
+      "item.buildermod.e_ather": "Eather Portal Igniter",
+      "item.buildermod.refined_eatherite_armor_chestplate": "Refined_Eatherite Chestplate"
     }
   },
   "foldersRoot": {

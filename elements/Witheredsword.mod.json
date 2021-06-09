@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "eatherite_tools_sword",
+    "texture": "withersword",
     "customModelName": "Normal",
     "name": "Eatherite Sword",
     "specialInfo": [
@@ -30,7 +30,7 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onRightClickedInAir": {
-      "name": "EatheritetoolsSwordRightClickedInAir"
+      "name": "WitherRightclick"
     },
     "onEntityHitWith": {
       "name": "EatheritetoolsSwordLivingEntityIsHitWithTool"
